@@ -1,0 +1,23 @@
+<html>
+  <head>
+  	<title>NW Ontario Garage Sales - Add a new sale</title>
+  </head>
+  <body>
+    <form action="addSale.php" method="post">
+    <table>
+      <tr><td>City:</td><td><select name="cityName">
+                <option value="Dryden">Dryden</option>
+                <option value="Kenora">Ignace</option>
+                <option value="Kenora">Kenora</option>
+                <option value="Kenora">Red Lake</option>
+                <option value="Sioux Lookout">Sioux Lookout</option>
+             </select></td></tr>
+      <tr><td>Address:</td><td> <input type="text" name="address" /></td></tr>
+      <tr><td>Date: </td><td><input type="date" name="saleDate" /></td></tr>
+      <tr><td colspan="2"><textarea name="comments" rows="5" cols="50">Additonl Comments</textarea></td></tr>
+      <tr><td colspan="2"><input type="submit" value="Submit" /></td></tr>
+    </table>
+
+    </form>
+  </body>  
+</html>

@@ -1,0 +1,9 @@
+Finished:
+- convert address to lat/long
+- connect and upload to database
+
+
+ToDo:
+- create markers from database
+- display map with markers
+- create individual pages for each townf
